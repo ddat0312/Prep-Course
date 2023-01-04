@@ -287,7 +287,7 @@ function continueStatement(numero) {
   
   for(var i=0; i<10; i++){
    
-    if(i===4){
+    if(i === 5){
       continue
     }
     else{
@@ -295,10 +295,11 @@ function continueStatement(numero) {
       resp.push(numero)
     }
 
-  return resp
+
 
  
   }
+  return resp
   
 }
 
